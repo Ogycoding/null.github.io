@@ -1,0 +1,269 @@
+body {margin:0; padding:0; }
+* {margin:0; padding:0; text-decoration:none; box-sizing:border-box; webkit-sizing:border-box; font-family:Arial, Helvetica, sans-serif;}
+
+
+.clearfix {
+		overflow:auto;
+		}
+.clearfix::after {
+
+		content:"";
+		clear:both;
+		display:table;
+		}
+
+.top {margin:0; padding:0; background:#033b4a;}
+.top-inner {margin:0 auto; padding:0; width:1170px; }
+.txtarea {margin:0; padding:0; display:flex; justify-content:space-between; }
+.txtarealeft {margin:0; padding:12px 0; display:flex;}
+.txtarealeft .fa {margin:0; padding:0 10px 0 0; color:#00d6a3; font-size:17px;}
+.txtarealeft h1 {margin:0; padding:0 10px; color:#fff; font-size:13px; font-weight:normal; text-transform:capitalize;}
+.txtarealeft h2 {margin:0; padding:0 10px; color:#fff; font-size:13px; font-weight:normal; text-transform:capitalize;}
+.txtarearight {margin:0; padding:0;}
+.btngp {margin:0; padding:15px 20px; background:#00d6a3; color:#fff; border:none; font-weight:700; font-size:12px; text-transform:uppercase; cursor:pointer; }
+.txtarearight .fa {margin:0; padding:0 10px; color:#fff; font-size:15px;}
+.btngp:hover {margin:0; padding: ; background:#fff; color:#003b4a; border:none;}
+
+.header {margin:0; padding:0;}
+.header-inner {margin:0 auto; padding:0; width:1170px;}
+.logo {margin:0; padding:0; float:left;}
+.logo img {margin:0; padding:30px 0; width:50%;}
+.headerright {margin:0; padding:0; float:right;}
+.headerright ul {margin:0; padding:40px 0; list-style:none; }
+.headerright ul li {margin:0; padding:0; float:left;}
+.headerright ul li a {margin:0; padding:0 18px; color:#033b4a; text-transform:uppercase; font-size:13px; font-weight:700;}
+.headerright ul li a:hover {margin:0; padding:0 18px; color:#00d6a3;}
+.headerright ul  .fa {margin:0; padding:0 10px; border-right:1px solid #f1f1f1; cursor:pointer;}
+.headerright ul  .fa:hover {margin:0; padding:0 10px; color:#00d6a3; }
+.border {border:none !important;}
+
+.container {margin:0; padding:20px 0; background:#f9fafa; position:relative;}
+.container-inner {width:1170px; margin:0 auto; padding:0; }
+.containerlst {margin:0; padding:0; display:flex;}
+.container1stbox {margin:0; padding:0 0; width:20%; float:left;}
+.container1stboxfa {margin:0 10px; padding:10px 15px; box-shadow:0px 0px 5px 0px #ddd ; background:#fff; float:left; color:#00d6a3; font-size:24px;}
+.container1stboxtxt {margin:0; padding:0; }
+.container1stboxtxt h2 {margin:0; padding:5px 0 0 0; color:#033b4a; font-size:16px; font-weight:500; text-transform:capitalize;}
+.container1stboxtxt p {margin:0; padding:5px 0 ; font-size:13px; font-weight:400; color:#9dabaf; text-transform:capitalize;}
+.containertf {    margin: 0; padding: 0; /* float: right; */ z-index: 1; position: absolute; right: 0; bottom: 0;}
+.containertf p {margin: 0; padding: 15px; font-weight: 700; color: #fff; font-size: 16px; background: #00d6a3; width: 415px;}
+.containertf p .fa {margin:0; padding:0 10px 0 0;}
+
+.salider {margin:0; padding:0; }
+.salider img {margin:0; padding:0; width:100%; height:100%;}
+
+.ourmedical {margin:0; padding:0; position:relative; }
+.dorpettern{margin:0; padding:0; background:url(../image/dotpettern.png) 0 0  repeat; width:20%; position:absolute; top:0; left:0; z-index:-1; height:100%}
+.ourmedical-inner {margin:0 auto; padding:0; width:1170px;}
+.ourmedicalimg {margin:0; padding:50px 0; width:580px; float:left;}
+.ourmedicalimg img {margin:0; padding:0; max-width:100%; height:auto; display:block;}
+.ourmedicalright {margin:0; padding:0; width:580px;}
+.ourmedicalright h3 {margin:0; padding:50px 0 20px 0; font-size:13px; color:#9dabaf; font-weight:400; letter-spacing:1.5px; text-transform:uppercase;}
+.ourmedicalright h4 {margin:0; padding:0 0 20px 0; font-size:35px; color:#033b4a; font-weight:600; letter-spacing:normal; text-transform:capitalize;}
+.ourmedicalright p {margin:0; padding:0 0 20px 0; font-size:13px; color:#9dabaf; font-weight:normal; letter-spacing:normal; }
+.ourmedicalright h5 {margin:0; padding:0 0 20px 0; font-size:20px; color:#033b4a; font-weight:600; letter-spacing:normal; text-transform:capitalize;}
+.ourmedical-list {margin:0; padding:0; }
+.ourmedical-list ul {margin:0 60px 0 0 ; padding:0 0 20px 0; list-style:none; display:inline-block;}
+.ourmedical-list ul li {margin:0; padding:10px 0 0 0; }
+.ourmedical-list ul li a {margin:0; padding: 0; color:#9dabaf; font-size:13px; font-weight:400; text-transform:capitalize;}
+.ourmedical-list ul li a .fa {margin:0; padding:0 10px 0 0; color:#00d6a3;} 
+.btnvmcu {margin:20px 0 0 0; padding:0;}
+.viewmore {margin: 0; padding:10px 20px; background:transparent; border:1px solid #000; font-size:12px; text-transform:uppercase; color:#033b4a; font-weight:700; }
+.viewmore:hover {margin: 0; padding:10px 20px; background:#033b4a; border:1px solid #000; font-size:12px; text-transform:uppercase; color:#fff; font-weight:700; }
+.contactus {margin:0 20px; padding:11px 20px; background:#00d6a3; outline:none; border:none; font-size:12px; text-transform:uppercase; color:#fff; font-weight:700; }
+.contactus:hover {margin:0 20px; padding:11px 20px; background:#033b4a; outline:none; border:none; font-size:12px; text-transform:uppercase; color:#fff; font-weight:700; }
+
+.ourservice {margin:0; padding:0; background:#f9fafa; }
+.ourservice-inner {margin:0 auto; padding:0; width:1170px; }
+.ourservice-txt-area {margin:0; padding:50px 0 0 0;}
+.ourservice-txt-area h5 {margin:0; padding:10px 0 0 0; text-align:center; letter-spacing:1.5px; font-size:13px; color:#9dabaf; font-weight:400; text-transform:uppercase;}
+.ourservice-txt-area h2 {margin:0; padding:10px 0; text-align:center; letter-spacing:normal; font-size:24px; color:#033b4a; font-weight:600; text-transform:capitalize;}
+.ourservice-txt-area p {margin:0; padding:0 0 50px 0; text-align:center; letter-spacing:0.1px; font-size:13px; color:#9dabaf; font-weight:400; line-height:1.6;}
+.ourservice-txt-box {margin:0; padding:0;}
+.ourservice-txt-box1 {margin:0 10px 20px 10px; padding:0; width:362px; height:434px; background:#fff; box-shadow:0px 0px 10px 0px #ddd ; display:inline-block;} 
+.ourservice-txt-box1 h4 {margin:0; padding:20px 0 10px 20px; color:#033b4a; font-size:15px; font-weight:700;  letter-spacing:normal; text-transform:capitalize;}
+.ourservice-txt-box1 p {margin:0; padding: 0 0 20px 20px; color:#9dabaf; font-size:13px; font-weight:normal;  letter-spacing:0.2px; text-transform:capitalize; line-height:1.4; }
+.ourservice-txt-box1 a {margin:0; padding:0 0 0 20px; color:#00d6a3; font-size:13px; font-weight:700; letter-spacing:normal; text-transform:uppercase; }
+.ourservice-txt-box1 a:hover {margin:0; padding:0 0 0 20px; color:#033b4a; font-size:13px; font-weight:700; letter-spacing:normal; text-transform:uppercase; }
+.txt-area {margin:0; padding:0;}
+.txt-area h5 {margin:20px 0 50px 0; padding:0; text-align:center; color:#9dabaf; font-size:13px; font-weight:700;}
+.txt-area a {margin: 0; padding:0; color:#00d6a3; font:13px; text-decoration:underline;}
+.txt-area a:hover {margin: 0; padding:0; color:#003b4a; font:13px; text-decoration:underline;}
+
+.appointment-bgcolor{margin:0; padding:50px 0; background:#033b4a; opacity:0.97;}
+.appointment-bg{background:url(../image/post-img-003-720x544.jpg) 0 0 no-repeat; background-position:center; background-size:cover; }
+.needadoctor {margin:0 0 50px 0; padding:50px 0 0 0; text-align:center;}
+.needadoctor h3 {margin:0; padding:0; font-size:24px; color:#00d6a3; font-weight:normal; letter-spacing:1px;}
+.needadoctor h1 {margin:0; padding:10px 0 20px 0; font-size:40px; color:#fff; font-weight:700; letter-spacing:normal;}
+.needadoctor h2 {margin:0 ; padding:0 0 40px 0; font-size:24px; color:#fff; font-weight:normal; letter-spacing:normal;}
+.needadoctor a {margin:0; padding:10px 20px; font-size:13px; font-weight:400; letter-spacing:normal; color:#fff; background:#00d6a3; border:none; text-transform:uppercase;}
+.needadoctor a:hover {margin:0; padding:10px 20px; font-size:13px; font-weight:400; letter-spacing:normal; color:#003b4a; background:#fff; border:none; text-transform:uppercase;}
+
+.meet-our-experienced-team {margin:0; padding:0; }
+.meet-our-experienced-team-inner {width:1170px; margin:0 auto; padding:0;}
+.meet-our-experienced-team-txt { margin:0; padding:0; display:flex; justify-content: space-between; }
+.meet-our-experienced-team-txtarea {margin:0; padding:0; }
+.meet-our-experienced-team-txtarea h3 {margin:0; padding:50px 0 0 0; font-size:13px; color:#9dabaf; font-weight:400; text-transform:uppercase; text-align:left; letter-spacing:1.5px; }
+.meet-our-experienced-team-txtarea h2 {margin:0; padding:10px 0 ; font-size:35px; color:#033b4a; font-weight:600; text-transform:capitalize; text-align:left; letter-spacing:normal; }
+.meet-our-experienced-team-txtarea p {margin:0; padding:0 0 20px 0; font-size:13px; color:#9dabaf; font-weight:normal; text-transform:none; text-align:left; letter-spacing:normal; line-height:20px; }
+.meet-our-experienced-team-txtright {margin:0; padding:50px 0 0 0; }
+.meet-our-experienced-team-txtright .fa {margin:0 5px; padding:10px 15px; background:#fff; border:1px solid #033b4a; cursor:pointer;}
+.meet-our-experienced-team-txtright .fa:hover {margin:0 5px; padding:10px 15px; background:#00d6a3; border:1px solid #033b4a; cursor:pointer;}
+.meet-our-experienced-team-box {margin:30px 10px; padding:0; display:inline-block;}
+.meet-our-experienced-team-boxarea {margin:0 23px 0 0; padding:10px; width:261px; height:auto; background:#fff; box-shadow:0px 0px 10px 0px #ddd ; display:inline-block;}
+.meet-our-experienced-team-boxarea img{width:100%; height:auto; display:block; }
+.meet-our-experienced-team-boxarea h4 {margin:0; padding:20px 0 10px 0; text-align:center; font-size:13px; font-weight:normal; letter-spacing:normal; color:#9dabaf; text-transform:capitalize; }
+.meet-our-experienced-team-boxarea h3 {margin:0; padding:0 0 10px 0; text-align:center; font-size:18px; font-weight:normal; letter-spacing:normal; color:#003b4a; text-transform:capitalize; }
+
+.happyclient-bg {margin:0; padding:50px 0; background:#033b4a; opacity:0.97;}
+.happyclient {background:url(../image/smiling-female-client-recommend-good-quality-medical-service-portrait-patient-show-thumbs-up-recommending-hospital-happy-183143629.jpg) 0 0 no-repeat; background-position:center; background-size:cover;}
+.happyclient-txt {margin:0; padding:50px 0 0 0; text-align:center; }
+.happyclient-txt h4 {margin:0; padding:0; font-size:13px; color:#9dabaf; font-weight:normal; text-transform:uppercase; letter-spacing:1px;}
+.happyclient-txt h2 {margin:0; padding:10px 0 30px 0; font-size:30px; color:#fff; font-weight:bold; text-transform:capitalize; letter-spacing:1px;}
+.happyclient-txt img {margin:0; padding:0;  border-radius:50px;}
+.happyclient-txt p {margin:0; padding:20px 0; font-size:13px; color:#9dabaf; font-weight:normal; text-transform:none; letter-spacing:normal; font-style:italic; line-height:1.5}
+.happyclient-txt  .fa {margin:0; padding:0; color:#fff; }
+.starfa {margin:0; padding:0;}
+.starfa .fa {margin:0; padding:0; color:#ffdd44; width:12px;}
+.happyclient-txt h3 {margin:0; padding:10px 0; font-size:13px; color:#00d6a3; font-weight:normal; text-transform:capitalize; letter-spacing:normal;}
+.happyclient-txt h5 {margin:0; padding:0 0 100px 0; font-size:13px; color:#9dabaf; font-weight:normal; text-transform:none; letter-spacing:normal;}
+
+.makeanappointment {width:1170px; margin:-100px auto; padding:0; z-index:50; position:relative; background:#fff;}
+.makeanappointment-left {margin:0 20px 0 0; padding:0; float:left;}
+.makeanappointment-left img {margin:0; padding:0; width:475px; height:auto;}
+.makeanappointment-right {margin:0; padding:0;}
+.makeanappointment-right h2 {margin:50px 0 0 0; padding:20px 70px 10px; color:#003b4a; font-size:30px; font-weight:bold; letter-spacing:2px; text-align:center; } 
+.makeanappointment-right p {margin:0; padding:0 0 20px 0; color:#9dabaf; font-size:13px; letter-spacing:0.2px; font-weight:normal; text-transform:none; text-align:center; }
+.makeanappointment-right form{margin:0; padding:0; text-align:center;}
+.formraw {margin:0 auto; padding:15px 0; width:75%; }
+.formraw1 {margin:0; padding:0; float:left; }
+.formraw1 input {margin:0; padding:15px 0; outline:none; border:none; background:#f9fafa; width:200px;}
+.formraw1 .fa {margin:0; padding:15px ; color:#00d6a3; float:left; background:#f9fafa;}
+.formraw2 {margin:0; padding:0; float:right;}
+.formraw2 input {margin:0; padding:15px 0; outline:none; border:none; background:#f9fafa; width:200px;}
+.formraw2 .fa {margin:0; padding:15px ; color:#00d6a3; float:left; background:#f9fafa;}
+.makeanappointment-right form input[type=submit] {margin:20px auto; padding:15px; background:#00d6a3; color:#fff; border:none; width:75%; cursor:pointer;}
+.makeanappointment-right form input[type=submit]:hover {margin:20px auto; padding:15px; background:#003b4a; color:#fff; border:none; width:75%; cursor:pointer;}
+
+.weprovide {margin:0; padding:150px 0; }
+.weprovide-inner {margin:0 auto; padding:0; width:1170px;}
+.weprovide-left {margin:0; padding:0; width:50%; height:auto; float:left; }
+.weprovide-left h1 {margin:0; padding:0; font-size:13px; color:#9dabaf; text-transform:uppercase; font-weight:normal; letter-spacing:1px;}
+.weprovide-left h2 {margin:0; padding:10px 0; font-size:30px; color:#003b4a; text-transform:capitalize; font-weight:bold; letter-spacing:0.5px;}
+.weprovide-left p {margin:0; padding:0 0; font-size:13px; color:#9dabaf; text-transform:none; font-weight:normal; letter-spacing:normal;}
+.dnatest {margin:20px 20px 0 0; padding:0; float:left;}
+.dnatest h3 {margin:0; padding:10px 0; font-size:18px; color:#003b4a; text-transform:capitalize; font-weight:bold; letter-spacing:0.5px; }
+.dnatest p {margin:0; padding:0 0; font-size:13px; color:#9dabaf; text-transform:none; font-weight:normal; letter-spacing:normal;}
+.dnatest p a {margin:0; padding:0 0; text-decoration:underline; color:#003b4a;}
+.prosthodontics {margin:20px 0 0 0; padding:0;}
+.prosthodontics h4 {margin:0; padding:10px 0; font-size:18px; color:#003b4a; text-transform:capitalize; font-weight:bold; letter-spacing:0.5px; }
+.prosthodontics p {margin:0; padding:0 0; font-size:13px; color:#9dabaf; text-transform:none; font-weight:normal; letter-spacing:normal;}
+.prosthodontics p a {margin:0; padding:0 0; text-decoration:underline; color:#003b4a;}
+.bgline {margin:20px 0; padding:0; width:100%; background:#9dabaf; height:1px;}
+.cosmeticdentistry {margin:20px 0 0 0; padding:0;}
+.cosmeticdentistry h5 {margin:0; padding:10px 0; font-size:18px; color:#003b4a; text-transform:capitalize; font-weight:bold; letter-spacing:0.5px; }
+.cosmeticdentistry p {margin:0; padding:0 0 20px 0; font-size:13px; color:#9dabaf; text-transform:none; font-weight:normal; letter-spacing:normal;} 
+.cosmeticdentistry p a {margin:0; padding:0 0; text-decoration:underline; color:#003b4a;}
+.btnmoreservices {margin:0 20px 0 0; padding:10px 20px; background:none; border:1px solid #003b4a; text-transform:uppercase; letter-spacing:normal; font-weight:normal; font-size:13px; color:#003b4a; cursor:pointer;}
+.btnmoreservices:hover {margin:0 20px 0 0; padding:10px 20px; background:#003b4a; border:1px solid #003b4a; text-transform:uppercase; letter-spacing:normal; font-weight:normal; font-size:13px; color:#fff;cursor:pointer;}
+.btncontactus {margin:0; padding:10px 20px; background:#00d6a3; border:none; text-transform:uppercase; letter-spacing:normal; font-weight:normal; font-size:13px; color:#fff; cursor:pointer;}
+.btncontactus:hover {margin:0; padding:10px 20px; background:#003b4a; border:none; text-transform:uppercase; letter-spacing:normal; font-weight:normal; font-size:13px; color:#fff; cursor:pointer;}
+.weprovide-right {margin:0; padding:0; text-align:center}
+.weprovide-right {margin:0; padding:0; width:100%; height:auto;}
+
+.awardshow {margin:0; padding:0; background:#00d6a3; }
+.awardshow-inner {margin:0 auto; padding:0; width:1170px;}
+.awardshow-box {margin:0 29px; padding:0; width:20%; border-right:1px solid #3bdfb8; text-align:center; float:left;}
+.awardshow-box img {margin:0; padding:50px 0 10px 0; width:50px; height:auto;}
+.awardshow-box .fa {margin:0; padding:50px 0 10px 0; font-size:50px; color:#fff; }
+.awardshow-box h1 {margin:0; padding:0; font-size:50px; font-weight:bold; letter-spacing:normal; color:#fff;  }
+.awardshow-box h6 {margin:0; padding:10px 0 50px 0; font-size:13px; font-weight:normal; letter-spacing:0.5px; text-transform:capitalize; color:#fff; }
+.borderlast {border:none !important;}
+
+.ourblog {margin:0; padding:0; }
+.ourblog-inner {margin:0 auto; padding:0; width:1170px;  }
+.ourblogcontent {margin:0; padding:0;  }
+.ourblogcontent-txt {margin:0; padding:50px 0 10px 0; text-align:left; float:left;}
+.ourblogcontent-txt h1 {margin:0; padding:0; color:#9dabaf; font-size:13px; font-weight:normal; letter-spacing:1px; text-transform:uppercase;}
+.ourblogcontent-txt h2 {margin:0; padding:10px 0; color:#003b4a; font-size:24px; font-weight:normal; letter-spacing:1px; text-transform:capitalize;}
+.ourblogcontent-txt p {margin:0; padding:0 0 10px 0; color:#9dabaf; font-size:13px; font-weight:normal; letter-spacing:normal; text-transform:none;}
+.morearticles { margin:0; padding:0; float:right; }
+.morearticles input {margin: 50px 0 0 0; padding: 10px 30px; float: right; font-size: 13px; font-weight: bold;  text-transform: uppercase;letter-spacing:normal; background:none; border:1px solid #003b4a; color:#003b4a; cursor:pointer;}
+.morearticles input:hover {margin: 50px 0 0 0; padding: 10px 30px; float: right; font-size: 13px; font-weight: bold;  text-transform: uppercase;letter-spacing:normal; background:#003b4a; border:1px solid #003b4a; color:#fff; cursor:pointer;}
+.bgline {margin:20px 0; padding:0; width:100%; background:#9dabaf; height:1px;}
+.howmuch {margin:10px 3px; padding:0;   float:left; box-shadow:0px 0px 10px 0 #ccc;}
+.howmuch-img {margin:0; padding:0; float:left;}
+.howmuch-img img {margin:0; padding:0; width:270px; height:auto;}
+.howmuch-txt {margin:0; padding:10px 20px; }
+.howmuch-txt h1 {margin:0; padding:0; color:#003b4a; font-size:18px; font-weight:normal; letter-spacing:normal; text-transform:capitalize; }
+.howmuch-txt h2 .fa {margin:0; padding:0 10px 0 0; color:#00d6a3;}
+.howmuch-txt h2 {margin:0; padding:10px 20px 0 0; color:#9dabaf; font-size:13px; font-weight:normal; letter-spacing:normal; text-transform:capitalize; float:left;}
+.howmuch-txt h3 {margin:0; padding:10px 0 0 0; color:#9dabaf; font-size:13px; font-weight:normal; letter-spacing:normal; text-transform:capitalize; }
+.howmuch-txt h3 .fa {margin:0; padding:0 10px 0 0 ; color:#00d6a3;}
+.bgline {margin:20px 0; padding:0; width:100%; background:#f2f2f2; height:1px;}
+.howmuch-txt p {margin:0; padding:0; color:#9dabaf; font-size:13px; font-weight:normal; letter-spacing:normal; text-transform:capitalize; line-height:1.5; }
+
+.contectinfo {margin:50px 0 0 0; padding:0; background:#00d6a3;}
+.contectinfo-inner {margin:0 auto; padding:0; width:1170px;}
+.contectinfo-fa {margin:0 35px 0 0; padding:50px 0; display:inline-block; width:30%; height:auto;}
+.contectinfo-fa .fa {margin:0 10px 0 0; padding:15px; border:1px solid #fff; background:none; color:#fff; float:left; font-size:16px;}
+.contectinfo-txt {margin:0; padding:0;}
+.contectinfo-txt h1 {margin:0; padding:3px 0 0 0; font-size:20px; font-weight:bold; letter-spacing:normal; color:#fff;}
+.contectinfo-txt p {margin:0; padding:0; font-size:13px; font-weight:normal; letter-spacing:normal; color:#fff;}
+
+.footer {margin:0; padding:0; background:url(../image/footer-bg-map.jpg) 0 0 no-repeat; background-position:center; background-size:cover;}
+.footer-inner {margin:0 auto; padding:0; width:1170px;}
+.footer-content {margin:0; padding:50px 0; width:20%; float:left;}
+.footer-content h1 {margin:0; padding:0; font-size:15px; color:#fff; font-weight:500; letter-spacing:normal; text-transform:capitalize;}
+.footer-content p {margin:0; padding:20px 0 0 0; font-size:13px; color:#f2f2f2; font-weight:normal; letter-spacing:normal; text-transform:none; line-height:1.6;}
+.footer-content ul {margin:0; padding:50px 0 0 0 ;  list-style:none }
+.footer-content ul li {margin:0; padding: 0; display:inline-block;}
+.footer-content ul li a {margin:0; padding:9px 12px; color:#00d6a3; border:1px solid #00d6a3; background:none; border-radius: 50%;}
+
+.footer-content-quicklink {margin:0; padding:50px 0; width:20%; float:left;}
+.footer-content-quicklink h1 {margin:0; padding:0; font-size:15px; color:#fff; font-weight:500; letter-spacing:normal; text-transform:capitalize;}
+.make-ap {margin:20px 0 0 0; padding:0; display:flex; }
+.footerbg {margin:10px 15px 0 0; padding:0; width:5%; background:#00d6a3; height:1px;}
+.make-ap-list {margin:0; padding:0;}
+.make-ap-list ul {margin:0; padding:0; list-style:none;}
+.make-ap-list ul li {margin:0; padding:0;}
+.make-ap-list ul li a {margin:20px 0; padding:0; font-size:13px; font-weight:normal; color:#fff;}
+.before-after {margin:10px 0 0 0; padding:0; display:flex; }
+.footerbg {margin:10px 15px 0 0; padding:0; width:5%; background:#00d6a3; height:1px;}
+.before-after-list {margin:0; padding:0;}
+.before-after-list ul {margin:0; padding:0; list-style:none;}
+.before-after-list ul li {margin:0; padding:0;}
+.before-after-list ul li a {margin:20px 0; padding:0; font-size:13px; font-weight:normal; color:#fff;}
+.footer-content-latestnews {margin:0; padding:50px 0; width:25%; float:left;}
+.footer-content-latestnews h1 {margin:0; padding:0 0 10px 0; font-size:15px; color:#fff; font-weight:500; letter-spacing:normal; text-transform:capitalize;}
+.latestnews {margin:0; padding:10px 0 0 10px; overflow:hidden;}
+.latestnews-img {margin:0; padding:0 10px 0 0; float:left;}
+.latestnews-img img {margin:0; padding:0; width:70px; height:auto;}
+.lateshnews-txt {margin:0; padding:0;}
+.lateshnews-txt h2 {margin:0; padding:10px 0 ; font-size:12px; font-weight:normal; letter-spacing:normal; color:#fff;}
+.lateshnews-txt h3 {margin:0; padding: 0; font-size:14px; font-weight:500; letter-spacing:normal; color:#fff; }
+ 
+.bottom {margin:0; padding:20px 0; background:#013340; text-align:center;}
+.bottom h1 {margin:0; padding:10px 0; font-size:13px; font-weight:normal; color:#fff; text-transform:capitalize;}
+.bottom h1 span {color:#00d6a3;}
+.bottom ul {margin:0; padding:0; list-style:none;}
+.bottom ul li {margin:0; padding:0; display:inline-block; }
+.bottom ul li a {margin:0; padding:0 10px; font-size:13px; color:#fff; font-weight:normal; border-right:1px solid #fff;  text-transform:capitalize;}
+.borderlast {border:none !important;}
+.bottom ul li a:hover {margin:0; padding:0 10px; font-size:13px; color:#00d6a3; font-weight:normal; border-right:1px solid #fff;  text-transform:capitalize;}
+
+navbar
+# {margin:0; padding:0;}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background:#f1f1f1;
+  z-index:999;
+  border-bottom:solid 1px #c2c1c1;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
